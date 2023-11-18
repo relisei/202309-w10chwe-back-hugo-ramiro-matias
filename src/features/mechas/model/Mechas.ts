@@ -13,11 +13,11 @@ const mechasSchema = new mongoose.Schema<MechaApiStructure>({
   characteristics: {
     type: {
       speed: {
-        type: Number,
+        type: String,
         required: true,
       },
       strength: {
-        type: Number,
+        type: String,
         required: true,
       },
     },
